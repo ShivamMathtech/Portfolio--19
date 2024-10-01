@@ -1,0 +1,84 @@
+body {
+  background-color: #0e0e0e;
+}
+:root {
+  --page-1-color: #d92c2e;
+  --page-2-color: #f7f9f8;
+  --overlay-color: rgba(0, 0, 0, 0.5);
+}
+.main-page {
+  height: 100vh;
+  background-image: url("titlebg-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.overlay {
+  background-color: var(--overlay-color);
+}
+.about-page {
+  height: 100vh;
+  background-color: var(--page-1-color);
+}
+header {
+  height: 50px;
+}
+.content-1 {
+  height: calc(100vh - 50px);
+}
+.img-box-1 {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50vh;
+  background-color: aqua;
+  background-image: url("user.jfif");
+  background-size: cover;
+}
+.about-page-1 {
+  height: 50vh;
+  background-color: var(--page-2-color);
+}
+.skill-page {
+  height: 50vh;
+  background-color: var(--page-1-color);
+}
+.circular-progress {
+  height: 30vh;
+  background-color: aliceblue;
+  width: 30vh;
+  border-radius: 30vh;
+}
+.incircule {
+  height: 28vh;
+  width: 28vh;
+  border-radius: 28vh;
+  background-color: var(--page-1-color);
+}
+.expreience {
+  height: 100vh;
+  background-color: var(--page-2-color);
+}
+.span-1 {
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background-color: #f7f9f8;
+}
+.portfolio {
+  height: 100vh;
+  background-color: var(--page-2-color);
+}
+.work-img {
+  height: 30vh;
+  background-color: aqua;
+  background-image: url("i-1.jfif");
+  background-size: cover;
+}
+.contact {
+  height: 100vh;
+  background-color: var(--page-2-color);
+}
+footer {
+  height: 15vh;
+  background-color: #454545cd;
+}
